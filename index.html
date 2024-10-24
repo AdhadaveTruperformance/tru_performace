@@ -350,7 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="https://www.perplexity.ai/" target="_blank" class="quick-link" id="Perplexity">
                 <img src="assets/images/Perplexity (1).png" alt="ChatGPT">
             </a>
-            <a href="https://zoom.us/" target="_blank" class="quick-link" id="Zoom">
+            <a href="https://zoom.com/" target="_blank" class="quick-link" id="Zoom">
                 <img src="assets/images/Zoom.png" alt="ChatGPT">
             </a>
         </div>
@@ -430,37 +430,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             openApp('slack://open', 'https://slack.com/');
         });
     
-        // document.getElementById('openMondayBoard').addEventListener('click', function() {
-        //     openApp('monday://open', 'https://monday.com/');
-        // });
+         document.getElementById('openMondayBoard').addEventListener('click', function() {
+                 openApp('monday://open', 'https://monday.com/');
+        });
     
         document.getElementById('microsoftOutLook').addEventListener('click', function() {
             openApp('ms-outlook://', 'https://outlook.office.com/');
         });
-    
-        // document.getElementById('truLMS').addEventListener('click', function() {
-        //     openApp('truLMS://open', 'https://academy.truperformancedigital.com/');
-        // });
-    
-        // document.getElementById('payBook').addEventListener('click', function() {
-        //     openApp('paybooks://open', 'https://apps.paybooks.in/');
-        // });
-    
-        // document.getElementById('chatGPT').addEventListener('click', function() {
-        //     openApp('chatGPT://open', 'https://chat.openai.com/');
-        // });
-    
-        // document.getElementById('Perplexity').addEventListener('click', function() {
-        //     openApp('perplexity://open', 'https://www.perplexity.ai/');
-        // });
-        document.getElementById('microsoftOutLook').addEventListener('click', function() {
-            openApp('zoommtg://open', 'https://zoom.us/signin#/login');
+        document.getElementById('openZoom').addEventListener('click', function() {
+            openApp('zoommtg://open', 'https://zoom.com/');
         });
         
     </script>
     
-
-
 <script>
   document.getElementById("pathForm").addEventListener("submit", function(event) {
     event.preventDefault();
