@@ -427,17 +427,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
     
         document.getElementById('openSlack').addEventListener('click', function() {
+            event.preventDefault(); 
             openApp('slack://open', 'https://slack.com/');
         });
     
          document.getElementById('openMondayBoard').addEventListener('click', function() {
+            event.preventDefault(); 
                  openApp('monday://open', 'https://monday.com/');
         });
     
         document.getElementById('microsoftOutLook').addEventListener('click', function() {
+            event.preventDefault(); 
             openApp('ms-outlook://', 'https://outlook.office.com/');
         });
         document.getElementById('openZoom').addEventListener('click', function() {
+            event.preventDefault(); 
             openApp('zoommtg://open', 'https://zoom.com/');
         });
         
